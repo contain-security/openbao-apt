@@ -1,0 +1,66 @@
+name: publish
+
+# Keeps the gh-pages apt repo in sync with upstream OpenBao releases.
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6h (offset to avoid the top-of-hour rush)
+  workflow_dispatch:          # manual trigger
+
+permissions:
+  contents: write             # push to gh-pages
+
+concurrency:
+  group: publish
+  cancel-in-progress: false   # never interrupt a push mid-publish
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source (main)
+        uses: actions/checkout@v4
+
+      - name: Install reprepro
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq reprepro
+
+      - name: Prepare published branch in ./public
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO_SLUG: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          REPO="https://x-access-token:${GH_TOKEN}@github.com/${REPO_SLUG}.git"
+          if git ls-remote --exit-code --heads "$REPO" gh-pages >/dev/null 2>&1; then
+            git clone --quiet --branch gh-pages --single-branch "$REPO" public
+          else
+            git clone --quiet "$REPO" public
+            ( cd public && git checkout --orphan gh-pages && git rm -rf --quiet . || true )
+          fi
+          rm -f public/.gitignore   # the published branch must not ignore pool/*.deb
+
+      - name: Build & sign repo
+        env:
+          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
+          GPG_KEY_ID: ${{ secrets.GPG_KEY_ID }}
+          GH_TOKEN: ${{ github.token }}
+          PUBLIC_DIR: ${{ github.workspace }}/public
+        run: |
+          set -euo pipefail
+          export GNUPGHOME="${RUNNER_TEMP}/gnupg"
+          mkdir -p "$GNUPGHOME"; chmod 700 "$GNUPGHOME"
+          printf '%s' "$GPG_PRIVATE_KEY" | gpg --batch --quiet --import
+          bash scripts/publish.sh
+
+      - name: Commit & push to gh-pages
+        run: |
+          set -euo pipefail
+          cd public
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "publish: sync OpenBao apt repo ($(date -u +%Y-%m-%dT%H:%M:%SZ))"
+            git push origin HEAD:gh-pages
+          fi
