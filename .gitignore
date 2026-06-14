@@ -1,0 +1,14 @@
+# Downloaded / built artifacts — never committed to the source branch
+*.deb
+/public/
+/debs/
+/.gnupg-tmp/
+*.gpgsig
+
+# Local-only files that are not part of the published repo
+install_openbao-latest.sh
+project-concept.md
+
+# Editor / OS noise
+*.swp
+.DS_Store
