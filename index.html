@@ -1,0 +1,20 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>OpenBao apt repository (contain-security)</title>
+<style>body{font:16px/1.5 system-ui,sans-serif;max-width:48rem;margin:3rem auto;padding:0 1rem}
+pre{background:#f4f4f4;padding:1rem;overflow:auto;border-radius:6px}code{font-family:ui-monospace,monospace}</style>
+<h1>OpenBao apt repository</h1>
+<p><strong>Unofficial</strong>, signed apt repo mirroring
+<a href="https://github.com/openbao/openbao/releases">OpenBao GitHub Releases</a>,
+maintained by contain-security. Not affiliated with the OpenBao project.</p>
+<h2>Setup (Ubuntu / Debian)</h2>
+<pre><code>curl -fsSL https://contain-security.github.io/openbao-apt/pubkey.gpg \
+  | sudo gpg --dearmor -o /usr/share/keyrings/openbao-cs.gpg
+
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/openbao-cs.gpg] \
+https://contain-security.github.io/openbao-apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/openbao-cs.list
+
+sudo apt update &amp;&amp; sudo apt install openbao   # or: openbao-hsm</code></pre>
+<p>Suite <code>stable</code> · component <code>main</code> · arch <code>amd64</code>, <code>arm64</code>.
+Packages re-signed locally only after their upstream OpenBao GPG signature is verified.</p>

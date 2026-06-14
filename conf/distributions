@@ -1,0 +1,8 @@
+Origin: contain-security OpenBao
+Label: OpenBao (unofficial, contain-security)
+Suite: stable
+Codename: stable
+Components: main
+Architectures: amd64 arm64
+Description: Unofficial signed apt repo mirroring OpenBao GitHub Releases
+SignWith: 85492B0D31C853449CC170D142DF5E2AB0EF4F99

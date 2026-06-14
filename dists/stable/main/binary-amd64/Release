@@ -1,0 +1,6 @@
+Archive: stable
+Component: main
+Origin: contain-security OpenBao
+Label: OpenBao (unofficial, contain-security)
+Architecture: amd64
+Description: Unofficial signed apt repo mirroring OpenBao GitHub Releases
