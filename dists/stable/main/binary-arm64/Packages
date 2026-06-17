@@ -1,9 +1,9 @@
 Package: openbao
-Version: 2.5.4
+Version: 2.5.5
 Architecture: arm64
 License: MPL-2.0
 Maintainer: OpenBao <openbao@lists.openssf.org>
-Installed-Size: 174144
+Installed-Size: 174150
 Replaces: bao
 Provides: openbao
 Depends: openssl
@@ -11,20 +11,20 @@ Conflicts: bao, bao-hsm
 Homepage: https://openbao.org
 Priority: optional
 Section: default
-Filename: pool/main/o/openbao/openbao_2.5.4_arm64.deb
-Size: 67324878
-SHA256: 2101f3c79af7fabc6303dcdbce770c704b3ebd8e1872e0fbbe06a6a53d6e1276
-SHA1: 029e020d483aaa02d422b4e84a088f3113fa54fc
-MD5sum: 9ed3315e3c24d50fa72d0a5d5adcf409
+Filename: pool/main/o/openbao/openbao_2.5.5_arm64.deb
+Size: 67344918
+SHA256: db6bb24900ce53eb8524866059b86c63fd8422bad5df09354399aaff8cb40292
+SHA1: 46a2cec2cee774e39f04a820e5ba0ba93036bcce
+MD5sum: ae88af06aa0f0e794225f071673da638
 Description: OpenBao exists to provide a software solution to manage, store, and distribute
  sensitive data including secrets, certificates, and keys.
 
 Package: openbao-hsm
-Version: 2.5.4
+Version: 2.5.5
 Architecture: arm64
 License: MPL-2.0
 Maintainer: OpenBao <openbao@lists.openssf.org>
-Installed-Size: 171455
+Installed-Size: 171528
 Replaces: bao-hsm
 Provides: openbao
 Depends: openssl
@@ -32,11 +32,11 @@ Conflicts: openbao, bao, bao-hsm
 Homepage: https://openbao.org
 Priority: optional
 Section: default
-Filename: pool/main/o/openbao-hsm/openbao-hsm_2.5.4_arm64.deb
-Size: 64019752
-SHA256: 22095c4c6a381f126559583d986fc32139f0d78502b9fc36c029456174f505aa
-SHA1: 88c70e68c1e663a4c358c9b13ffee14a172f0625
-MD5sum: 6635d089e6c5095965cf3aafda0827db
+Filename: pool/main/o/openbao-hsm/openbao-hsm_2.5.5_arm64.deb
+Size: 64019430
+SHA256: 7e7ca1279351283544c7569d2d0fca11f4e1bf15e25da16d492f828cf35c3d00
+SHA1: 9d5a65e8e2cd615f868564433a567541bad36a28
+MD5sum: 3229b33956fba744cc3e5f02490c3e4a
 Description: OpenBao exists to provide a software solution to manage, store, and distribute
  sensitive data including secrets, certificates, and keys.
 

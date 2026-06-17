@@ -2,28 +2,28 @@ Origin: contain-security OpenBao
 Label: OpenBao (unofficial, contain-security)
 Suite: stable
 Codename: stable
-Date: Sun, 14 Jun 2026 04:32:15 UTC
+Date: Wed, 17 Jun 2026 16:08:38 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Unofficial signed apt repo mirroring OpenBao GitHub Releases
 MD5Sum:
- f2d6e7058968a1c289e603f579198de5 1347 main/binary-amd64/Packages
- 77114e4ea97631edc91dad563919aa33 603 main/binary-amd64/Packages.gz
+ 7db920adedd48424f89ffc99731fc9da 1347 main/binary-amd64/Packages
+ cf9ed4ee29f422607288a3509fafe8b4 607 main/binary-amd64/Packages.gz
  f4e8aedc826b8747ea41c196c7fe076d 205 main/binary-amd64/Release
- 5be844b60ea804b9c8b5ec465e3bf23a 1347 main/binary-arm64/Packages
- a34429175fe3a9cd4bd0c08d3cfd61d6 604 main/binary-arm64/Packages.gz
+ f24e7978ba478e5869da6cd9e5fe157f 1347 main/binary-arm64/Packages
+ 3f2bf2bb4733dd3861d0f93b5ef05dc5 602 main/binary-arm64/Packages.gz
  8671c833e8bb509da4daba4ac57de35f 205 main/binary-arm64/Release
 SHA1:
- 74f78c6b61e4a17f8fbd6eee5028e7047d7770ad 1347 main/binary-amd64/Packages
- 91c7c005d6dcc6dd8ec8ed7b02e85cbb47e1c8d6 603 main/binary-amd64/Packages.gz
+ 2da03af492f00c210124f88e50e6cf1138a63702 1347 main/binary-amd64/Packages
+ 94e9b8e55d38a3ef1fd577b19c80ccc7da2b259d 607 main/binary-amd64/Packages.gz
  91e919d54b46beb79b7551fc3373c0429f60147b 205 main/binary-amd64/Release
- b2ff93c0dd5efe2d97d517d80832e4cb32333b1b 1347 main/binary-arm64/Packages
- c001d8936a92f84afee4e04b86c84f71ec89bb9a 604 main/binary-arm64/Packages.gz
+ 69f44c6d06f9238521564c654c12f3b64689a87a 1347 main/binary-arm64/Packages
+ 43e5066095bf81b86771ec5f254bb623a40fe50e 602 main/binary-arm64/Packages.gz
  7f71848ad42895d905a46a993958e8b3e62b1c44 205 main/binary-arm64/Release
 SHA256:
- 259f62df14cdd7ca49ca247e8bdeedf08c7bc12f7cd87988f20bc44e683089be 1347 main/binary-amd64/Packages
- 5ecf5952afd0da773015a1f80f623b52e2dcbec5d73a7b883ddea610835b063d 603 main/binary-amd64/Packages.gz
+ b83e33a659c4f8185483144b3a1d909d18cd56ee430f06a434bdb117e92a8368 1347 main/binary-amd64/Packages
+ 46fd2347b9c3d25be04dd85191804decee34dfcc19e02f6252c929c65f385450 607 main/binary-amd64/Packages.gz
  c346e4e0a3b43bcfc746df8a2aa65823427df4400efb55540e54cde16a4e24b5 205 main/binary-amd64/Release
- 3279d46f14cd0938fff0bfa9e150b0265692cb60b0171d4f1ccbfcf198df83fd 1347 main/binary-arm64/Packages
- bf68c50ad3cb138d973d86369af8d76704f81098caac3717aee6779eb1d83beb 604 main/binary-arm64/Packages.gz
+ acf3a3557dc7916d21a3a68435b3356ab9085f14dd8388efe3626078abe9c4f0 1347 main/binary-arm64/Packages
+ f307b62aa5ce8d93e54ece299da0aaa5abd5c352898a84df9d8f33b89646aad5 602 main/binary-arm64/Packages.gz
  afd1ac6f25782e18fcd92e07f874e887d8265e2b77dd0a7458cfb20bc60d5af0 205 main/binary-arm64/Release
