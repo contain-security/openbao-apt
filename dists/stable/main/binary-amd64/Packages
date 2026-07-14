@@ -1,9 +1,9 @@
 Package: openbao
-Version: 2.5.5
+Version: 2.6.0
 Architecture: amd64
-License: MPL-2.0
+Architecture-Variant: amd64v1
 Maintainer: OpenBao <openbao@lists.openssf.org>
-Installed-Size: 183338
+Installed-Size: 190174
 Replaces: bao
 Provides: openbao
 Depends: openssl
@@ -11,20 +11,20 @@ Conflicts: bao, bao-hsm
 Homepage: https://openbao.org
 Priority: optional
 Section: default
-Filename: pool/main/o/openbao/openbao_2.5.5_amd64.deb
-Size: 72747940
-SHA256: b86386c8c48a442d51979b754d1f3495c607a528dcbf9f697eb2819d5ac7aa3d
-SHA1: f2a588ba4b5c088d5d0b07ff02b928633809d740
-MD5sum: 2c77498f43a47c8de0cb5054ef90ee0d
+Filename: pool/main/o/openbao/openbao_2.6.0_amd64.deb
+Size: 75937110
+SHA256: d627a68dfbd11f856bc100e501c0b3ea4c0310d01c2539e5af26a7f88823a524
+SHA1: e6e803fb5eb504871ebdee6794e6bff588671107
+MD5sum: 4327ecb066e481e07308770781a1f4d7
 Description: OpenBao exists to provide a software solution to manage, store, and distribute
  sensitive data including secrets, certificates, and keys.
 
 Package: openbao-hsm
-Version: 2.5.5
+Version: 2.6.0
 Architecture: amd64
-License: MPL-2.0
+Architecture-Variant: amd64v1
 Maintainer: OpenBao <openbao@lists.openssf.org>
-Installed-Size: 180936
+Installed-Size: 187611
 Replaces: bao-hsm
 Provides: openbao
 Depends: openssl
@@ -32,11 +32,11 @@ Conflicts: openbao, bao, bao-hsm
 Homepage: https://openbao.org
 Priority: optional
 Section: default
-Filename: pool/main/o/openbao-hsm/openbao-hsm_2.5.5_amd64.deb
-Size: 69674654
-SHA256: c2acb1accd4cb777c298be9c4c239365b129eec074dfb43a2ede93965a9104bb
-SHA1: 58c139b3dc996214f6621793ffc9ce28e5fb610e
-MD5sum: 5bfb3156f183b944b994d5c66b877b46
+Filename: pool/main/o/openbao-hsm/openbao-hsm_2.6.0_amd64.deb
+Size: 72650870
+SHA256: 723964870fe8b7f2babf77a53d334037b9dde15961d345ffc5d3896426fbe71a
+SHA1: e27b23c056359413ddeb2951c24b78b3a7a51778
+MD5sum: 8ba4c15fff6307c3b2caf8bb59fc362b
 Description: OpenBao exists to provide a software solution to manage, store, and distribute
  sensitive data including secrets, certificates, and keys.
 
