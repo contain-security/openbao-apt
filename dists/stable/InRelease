@@ -5,44 +5,44 @@ Origin: contain-security OpenBao
 Label: OpenBao (unofficial, contain-security)
 Suite: stable
 Codename: stable
-Date: Wed, 23 Sep 2026 17:11:43 UTC
+Date: Wed, 23 Sep 2026 21:35:04 UTC
 Architectures: amd64 arm64
 Components: main
 Description: Unofficial signed apt repo mirroring OpenBao GitHub Releases
 MD5Sum:
- b686c7772ca437ccb6cf04701cefd64e 1373 main/binary-amd64/Packages
- e242b28de718359448ff3b01b74f3561 600 main/binary-amd64/Packages.gz
+ 9b4c8190ffe73e10799005f81d5dbc00 1343 main/binary-amd64/Packages
+ ec617421aa5456810bed36dafc3e4a01 613 main/binary-amd64/Packages.gz
  f4e8aedc826b8747ea41c196c7fe076d 205 main/binary-amd64/Release
- 9055368d7b27f92a2f0892c277aad2ba 1313 main/binary-arm64/Packages
- dfc163eeeb7684abecc1bbe1f6c57a10 590 main/binary-arm64/Packages.gz
+ 2c0b85c61427e6bb266d30bcafc04a0c 1313 main/binary-arm64/Packages
+ 1f41fb59f2cc533a638741cfdc75ff10 597 main/binary-arm64/Packages.gz
  8671c833e8bb509da4daba4ac57de35f 205 main/binary-arm64/Release
 SHA1:
- 007f94ad12f7bdd15aee3cf360c0f0a14434462e 1373 main/binary-amd64/Packages
- 0e9a72cca2ba225e81a27138a2bb4c9dc3cb9fde 600 main/binary-amd64/Packages.gz
+ ed0f516f99ef1a3c6eb217dbcdd79770cb0cbd4a 1343 main/binary-amd64/Packages
+ fdb0438501c9dda43580364a5478792c8c8906f6 613 main/binary-amd64/Packages.gz
  91e919d54b46beb79b7551fc3373c0429f60147b 205 main/binary-amd64/Release
- 7da17578c92467ec8b583a58a87623c142367d92 1313 main/binary-arm64/Packages
- 8ff47bdf66b0a8ddc971484a4cb7a28298bc4087 590 main/binary-arm64/Packages.gz
+ 4f737a6d8f3df6017e21073e2f438f01e66cbc9d 1313 main/binary-arm64/Packages
+ 62813c221006b56c51a7bfc4e46c476ecd23b56f 597 main/binary-arm64/Packages.gz
  7f71848ad42895d905a46a993958e8b3e62b1c44 205 main/binary-arm64/Release
 SHA256:
- ba0b776196d71fcfce04d7ad75eef81aae3292ea71dc3691e44b7c267df3511c 1373 main/binary-amd64/Packages
- 75eaa22b758c6747a6d1a4faf9e994115abba9d3cde20c43bc2b6bf027b47829 600 main/binary-amd64/Packages.gz
+ 9afaf643f491951d320b86ee60dc041c75e97d47c34a2bcdbecc5ba820dba08c 1343 main/binary-amd64/Packages
+ 305c039e67492509318140ee450b829a0c5932e2c045d99a55cac5c24c0f6389 613 main/binary-amd64/Packages.gz
  c346e4e0a3b43bcfc746df8a2aa65823427df4400efb55540e54cde16a4e24b5 205 main/binary-amd64/Release
- ec9643474ce2d1bea4e8e30eb83163a0b86c2de78675c7734a80c3173e2194ff 1313 main/binary-arm64/Packages
- 868de487d16e8a521750ec90662619d665f7ebd16a3e61784e4ec32f872a98ac 590 main/binary-arm64/Packages.gz
+ db5cbeb4972406ca4730ff8bb8181079eda2a4de6e1215a1abd1f9d570b75b1e 1313 main/binary-arm64/Packages
+ ae81f29c4789fe436a06fa633dd62b0e58d1d3a67bd29dc13b75f8f1576ae47c 597 main/binary-arm64/Packages.gz
  afd1ac6f25782e18fcd92e07f874e887d8265e2b77dd0a7458cfb20bc60d5af0 205 main/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEzjBrdfJtbpw+HKb0U/Xxy7cr6mYFAmq0CE8ACgkQU/Xxy7cr
-6mYiUA/9ESoKURBHNGUcOlKQE3AOs+EkgfuLe+51hSn258A7nivaiwVtzbw3EEWI
-3aveIb3QN4ix2PsfBQD/CPFenxL+y0MyZYG+bVPfr7rWhNWXeoMSYdroszRzkA7p
-NvddRDaQr5jRQhHlf69ZPRaioBA+CzVxILaitK7uSomZ08ThOGJZn/ZHs1JASnL+
-X1ZrgseDXO0XcQqOQ4bNAGLE21khdSZrH7wwo/r9H+2Fl3IW0rX9/csCiTVeoDJo
-0xqpGOL5X9+PQSGe7VCiU7hd+u4kDJZ7Sl9GLyxTzF/mcqPwr5sDhf7djU42c6KM
-/B+pliUj/jgttJuT8cFYLC7TtVWqdN+MD45Bz9V8QqxsegR7efG9JfWYEOsieL5Z
-Ax2qTUpHQ/cHpflwxMKEROxUZ2Y8mH6V1xAEr3swxjoiMN/kVC5bbPJlWthIol+m
-+eHRBMI+fmIfQ2EThzch91mEU/lZ+45XUHilkTlI9VvNZ8a0Dj7DWUbhUWWYRZEI
-WbPEzn7H/2t+0g0zkn6Qu5gQlkrthPeIHSogNRk6XzOgjdbPbQYxJABrCBOwActO
-dOXVTL3KmF0GRVcdpdMcRwAD54+lyMSuStn8tPA7CyVRxcDL/jXJMxHW6Ru55u4o
-AXXJcaDC1mmADNDN1H3tD3BXGCFMv3QL7UOUx+7dx3NRyDaI7tM=
-=CFsv
+iQIzBAEBCgAdFiEEzjBrdfJtbpw+HKb0U/Xxy7cr6mYFAmq0RggACgkQU/Xxy7cr
+6mZk0g//YyByQhg/J3pJIzFe36PHY+ZGUEB2TYDtLJyV3xzXozs+ZCbtC/YI6sR4
+hP0GTgpXj7hB9EDUJoKQgZrcpvl9/rEFa2ZGWp8QNbE7Ssu+k7E93XTBu5X6A6T1
+HL6I2w1WbykXUuVGKMPIe64tZ6p3kilztGR7AfNsJJHQuBJdW3LZNTOBSkCMD4C7
+rFPAAvsRnd3kH9EdKJxuXWpLglcd1SubEuDXV2SoLwxBkrk1iT+owpo/VGMPaw5+
+c4lsGaIw9SFmlCi0XV/wcf6IT13BWB4MZBBFhZ/HdlHfASRZjKo1qiHlVgdWVzQq
+mX7szfWbqRocIb2dEEp3glcJCO+NzO3qp0I0l7jJwfEQaM57G4+qBwtUdD0KGTuc
+QVOgzf0b+pD1YPVo0KPebJEQKDgII0YSmh4AZfGs+HXSFjsgyeBe39vJHMF+2jHw
+mLFJ/FaFcLjxfYTQXZLCBuqLdFfeld4lTfA9RhOUPpoHL/vRNIyQIfsCNWCqK/x6
+HTeFJzQI0qN3jKZLpsKxdTUOT0Jyk66SgYoTqoKSumz9aCksHdDqnrxoJGoFCtFL
+azyhMutkQ6qnN3K761dvYmu8Teq/CaT4rR4Ju/34NPaPaYpp220+ypcuaSgnut36
+gbWBiFP0yJE6JZisppOQAnnfhlLhJlyTLurj5BetvFm+fopyix8=
+=82np
 -----END PGP SIGNATURE-----
