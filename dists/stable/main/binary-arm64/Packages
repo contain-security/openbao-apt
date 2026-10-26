@@ -1,8 +1,8 @@
 Package: openbao
-Version: 2.7.1
+Version: 2.7.2
 Architecture: arm64
 Maintainer: OpenBao <openbao@lists.openssf.org>
-Installed-Size: 166592
+Installed-Size: 166680
 Replaces: bao
 Provides: openbao
 Depends: openssl
@@ -10,11 +10,11 @@ Conflicts: bao, bao-hsm
 Homepage: https://openbao.org
 Priority: optional
 Section: default
-Filename: pool/main/o/openbao/openbao_2.7.1_arm64.deb
-Size: 69643518
-SHA256: b46dfc7e72b9e1f7fea68713748ca170c3ea9b4946fd2142d9a6c3323b4b85b1
-SHA1: b514a8b946c6dbccf9c808b1472e5e71481801a4
-MD5sum: 7a6e1f7276fe283fcd8b8e33846dec19
+Filename: pool/main/o/openbao/openbao_2.7.2_arm64.deb
+Size: 69679584
+SHA256: f9f40f906aaf673f536e59e45be3f485408b36cdb75697e89bb5201b8545dc46
+SHA1: d9152c5af5b8a20aaf57b5dae6db21394b3eb050
+MD5sum: d5b8dd543f226a7bd3ada648ef52488a
 Description: OpenBao exists to provide a software solution to manage, store, and distribute
  sensitive data including secrets, certificates, and keys.
 
